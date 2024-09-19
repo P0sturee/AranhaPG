@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #fae1dd;
+}
+
+header, footer {
+    background: #f6a5c0;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover, .navbar a.active {
+    background-color: #d78fa1;
+    border-radius: 5px;
+}
+
+.main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.game {
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    text-align: center;
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+}
+
+.game p {
+    color: #333;
+}
